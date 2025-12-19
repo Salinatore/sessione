@@ -11,8 +11,8 @@ Simplesso
     Trovare variabili duali dato il tablo risolto con il simplesso duale (es 6.c)
   
 Rilassamenti
-  Continui 
-    Branch and Bound 
+  Branch and Bound 
+  Continui   
     Tagli di Gomory 
   Lagrange 
     Metodo del subgradiente
