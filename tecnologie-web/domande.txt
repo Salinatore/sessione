@@ -1,0 +1,99 @@
+	•	Descrivere brevemente le principali novità introdotte da CSS3
+        Introdotte nuove proprietà per background (es. multiple immagini), gradienti nativi senza immagini esterne, 
+        bordi arrotondati con border-radius e la possibilità di usare immagini come bordi con border-image. 
+        Queste novità migliorano l’estetica e riducono la necessità di immagini esterne, aumentando performance e flessibilità.
+
+	•	Descrivere in che cosa consiste l’approccio Mobile First e quali sono i vantaggi della sua adozione
+        Consiste nello sviluppare prima l’interfaccia per dispositivi mobili, con vincoli più stringenti 
+        (schermo piccolo, risorse limitate), e poi estendere il design per tablet e desktop. Il vantaggio principale è garantire 
+        funzionalità e usabilità nei contesti più difficili, semplificando l’adattamento per device più potenti.
+
+	•	Descrivere le principali differenze tra gli approcci progressive enhancement e graceful degradation.
+        ◦	Progressive Enhancement: si parte da una base funzionale minimale, aggiungendo funzionalità e miglioramenti per browser più avanzati.
+        ◦	Graceful Degradation: si sviluppa un’esperienza completa e ricca, semplificando per browser meno capaci.
+        Il primo approccio è più resiliente e inclusivo, il secondo può risultare in perdita di funzionalità per utenti con tecnologie obsolete.
+	
+    •	Descrivere tutte le tecniche/modalità/crismi, dal punto di vista della sicurezza, in modo che la trasmissione di dati sensibili dal browser al server sia "sicura".
+        Per sicurezza si devono:
+        Usare HTTPS per cifrare la comunicazione e prevenire intercettazioni (MITM).
+        Preferire il metodo POST per l’invio di dati, poiché i parametri non sono visibili nell’URL.
+        Implementare ulteriori misure come token CSRF, validazione server-side e header di sicurezza (es. HSTS).
+	
+    •	 Descrivere brevemente le metodologie di codifica dei caratteri nelle pagine Web
+        ◦	ASCII: codifica a 7 bit, limitata ai caratteri base inglesi, priva di lettere accentate.
+        ◦	ISO Latin-1: estensione a 8 bit di ASCII, aggiunge caratteri europei occidentali.
+        ◦	Unicode: sistema universale, copre quasi tutti gli alfabeti e simboli, spesso usato con UTF-8 per compatibilità e efficienza.
+	
+    •	Definire personas e target users e spiegarne le differenze
+        ◦	Personas: rappresentazioni sintetiche e dettagliate di utenti tipici, usate per orientare progettazione e test.
+        ◦	Target Users: gruppi reali o ipotetici di utenti a cui il prodotto è destinato.
+        ◦	Le personas sono strumenti descrittivi e tattici, i target users un riferimento strategico.
+        
+    •	Descrivere come è possibile scambiare i valori delle variabili tra Javascript e Php.
+        Si realizza tipicamente via AJAX (chiamate asincrone HTTP) usando formati standardizzati come JSON per la serializzazione dei dati,
+         garantendo interoperabilità e dinamicità senza ricaricare la pagina.
+
+	•	Descrivere brevemente i passaggi e gli scambi di comunicazione che avvengono tra browser e server Web dal momento in cui viene digitato 
+    o cliccato un indirizzo Web al momento in cui la corrispondente pagina Web viene renderizzata dal browser.
+        ◦	L’utente inserisce un URL o clicca un link → il browser effettua una richiesta HTTP al server.
+        ◦	Il server elabora la richiesta (eventualmente processando PHP, interrogando DB) e risponde con codice HTML, CSS, JS, immagini.
+        ◦	Il browser riceve la risposta, interpreta l’HTML, scarica e esegue gli script, costruendo il DOM e renderizzando la pagina.
+	
+    •	Descrivere brevemente il concetto di “cascata” nei fogli di stile e definire come si applica e come vengono gestiti eventuali conflitti 
+    con fogli di stile inline, fogli di stile interni e fogli di stile esterni.
+        La “cascata” definisce come più regole CSS conflittuali vengono risolte, seguendo questi criteri: importanza (es. !important), 
+        origine (inline > interno > esterno), specificità del selettore, ordine di dichiarazione. Il CSS inline ha la priorità più alta, 
+        quindi sovrascrive regole interne o esterne.
+	
+    •	Descrivere brevemente che cosa si intende per Personas, Focus Group e Scenarios nel contesto della User experience
+        ◦	Personas: profili fittizi ma realistici degli utenti target.
+        ◦	Scenarios: descrizioni narrative di come una persona usa il prodotto per raggiungere obiettivi.
+        ◦	Focus Group: sessioni con utenti reali per raccogliere feedback qualitativi sul prodotto, utili a individuare problemi e bias di progettazione.
+	
+    •	Descrivere brevemente le principali differenze e analogie tra i solution stack LAMP e MEAN
+        ◦	LAMP è uno dei solution stack più noti, è open source e adatto solo per Linux, la sigla sta per 
+        Apache, MySQL e PHP/Python/Perl. Esiste anche la sua versione per Windows (WAMP) e per Macos (MAMP), 
+        tuttavia non è tecnicamente cross-platform. È lo stack di tecnologie “base” seppur ormai datato, 
+        per la programmazione di applicazioni web, che appunto include il web server Apache (per gestire le richieste), 
+        il DBMS MySQL e il linguaggio di backend server-side (PHP, Python o Perl).  
+        ◦	MEAN usa Node.js come ambiente di esecuzione per applicazioni server-side, usa mongoDB come DBMS non relazionale, 
+        Angular.js come framework front-end e Express.js come framework back-end di Node.js. È cross-platform e quindi indipendente 
+        dal sistema operativo ed è interamente basato su JS.
+	
+    •	Descrivere le principali differenze tra le WCAG 2.0 e i requisiti definiti nell’ambito della Legge Stanca (L. 4/2004):.
+        WCAG 2.0 è uno standard internazionale con criteri tecnici generali (12 requisiti), mentre la Legge Stanca è una normativa italiana più articolata, 
+        con 6 allegati che dettagliano obblighi legali, specificità locali e requisiti amministrativi più estesi.
+	
+    •	Descrivere brevemente le metodologie di codifica dei colori nelle pagine Web e nei fogli di stile CSS
+        I colori possono essere espressi con delle Keyword(red, green ecc..), in esadecimale #FFFFFF o in notazione decimale rgb(255,255,255)
+	
+    •	Descrivere brevemente le principali novità introdotte da HTML5
+        Nuovi elementi semantici come article, section, nav ecc…Nuovi elementi multimediali audio, video
+	
+    •	Descrivere le principali differenze tra usability e user experience.
+        La usability, è una soluzione semplice e funzionaleLa user experience si concentra sul rendere 
+        l’esperienza dell’utente all’interno dell’applicazione bella e soddisfacente
+	
+    •	Descrivere cosa si intende in ambito Web con usabilità e cosa con accessibilità, sottolineando le differenze.
+        L’usabilità consiste nel rendere l’applicazione semplice e funzionaleL’accessibilità rende l’applicativo utilizzabile anche da persone con disabilità
+	
+    •	Illustrare le differenze, i vantaggi e gli svantaggi di fogli di stile esterni, interni e inline.
+        Gli stili inline si scrivono direttamente sugli elementi HTML. Sono comodi per modifiche rapide, 
+        ma rendono il codice difficile da mantenere e non riutilizzabile.Gli stili interni si definiscono nel tag 
+        <style> dentro l’HTML. Vanno bene per pagine singole o prototipi, ma non sono adatti a progetti estesi.
+        Gli stili esterni sono in file .css separati. Sono la soluzione più pulita e scalabile: facilitano riuso, 
+        manutenzione e migliorano le performance grazie alla cache. Sono la scelta ideale in contesti professionali.
+	
+    •	Descrivere brevemente che cosa si intende per Personas e Scenarios nel contesto della User eXperience:
+        Le Personas sono rappresentazioni degli utenti dell’applicazione, gli Scenarios sono le azioni che le Personas intraprendono,
+         e quindi tutte le possibili interazioni con l’applicazione.
+	
+    •	Descrivere brevemente che cosa si intende per Focus Group nel contesto della User eXperience:
+        Un Focus Group è un gruppo organizzato per testare l’usabilità di un’applicazione. Si seleziona un gruppo di persone,
+        facendogli provare l’app e poi si raccolgono i feedback per poter apportare miglioramenti. Sono utili sia per correggere sviste 
+        o errori di progrettazione grafica, ma anche per eliminare il bias introdotto dal programmatore nella disposizione degli elementi.
+	
+    •	Descrivere quali sono i 3 standard di base del web.
+        ◦	URL, standard per identificare univocamente una risorsa sul web.
+        ◦	HTTP, protocollo di comunicazione client-server standard sulla rete
+        ◦	HTML, linguaggio di markup del web, usato per strutturare il contenuto delle pagine.
