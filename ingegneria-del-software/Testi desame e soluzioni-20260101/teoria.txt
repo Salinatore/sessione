@@ -1,0 +1,30 @@
+
+Co. Co. Mo.
+    Serve per stimare i mesi lavoro del software. 
+
+    FP -> KDSI (linee di codice) 
+    Mnom = tipo(organic/sim-detach/embedded) * KDSI^n
+    M = Mnom * prudottoria degli stimatori di costi (15)
+
+
+Produzione (Modelli)
+    Incrementali [I]
+    Iterativi [IT]
+
+    Model-Driven Development (tipologia di sviluppo)
+
+    Prescittivi
+        Modello a Cascata {I}
+        Modello Incrementale {I,IT}
+        Modello RAD {I}
+        Evolutivi {IT}
+            Modello a Spirale {I,IT}
+
+    NON Prescrittivi
+        
+Unified Process
+    Fasi
+        Inception, avvio (documento di fattibilità)
+        Eaboration
+        Construction
+        Transition
